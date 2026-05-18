@@ -19,7 +19,7 @@ It demonstrates user authentication, form validation, clean architecture, and na
 
 ## Screens
 
-> *(Replace the placeholder text below with actual screenshots after running the app)*
+> 
 
 | Splash | Registration | Login |
 |--------|-------------|-------|
@@ -31,4 +31,3 @@ It demonstrates user authentication, form validation, clean architecture, and na
 
 ---
 ```
-This project is submitted for academic evaluation only.
