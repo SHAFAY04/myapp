@@ -17,6 +17,7 @@ class AppConstants {
   static const String routeLogin = '/login';
   static const String routeDashboard = '/dashboard';
   static const String routeDetail = '/detail';
+  static const String routeCourses = '/courses';
 
   // ─── Theme colours ────────────────────────────────────────────────────────
   static const Color primaryColor = Color(0xFF4F46E5);   // indigo-600

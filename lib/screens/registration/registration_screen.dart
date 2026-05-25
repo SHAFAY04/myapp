@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 
 import '../../controllers/auth_controller.dart';
 import '../../core/constants/app_constants.dart';
-import '../../core/enums/auth_state_enum.dart';
 import '../../core/enums/gender_enum.dart';
 import '../../core/validators/app_validator.dart';
 import '../../models/user_model.dart';
