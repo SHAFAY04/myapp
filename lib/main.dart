@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import 'controllers/auth_controller.dart';
+import 'controllers/course_controller.dart';
 import 'core/constants/app_constants.dart';
 import 'screens/dashboard/dashboard_screen.dart';
 import 'screens/detail/detail_screen.dart';
@@ -17,8 +18,11 @@ void main() {
     DeviceOrientation.portraitDown,
   ]);
   runApp(
-    ChangeNotifierProvider(
-      create: (_) => AuthController(),
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => AuthController()),
+        ChangeNotifierProvider(create: (_) => CourseController()),
+      ],
       child: const AppRoot(),
     ),
   );
