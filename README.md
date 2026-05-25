@@ -108,7 +108,7 @@ Every API operation goes through three states managed by `ApiState` enum:
 | ![Splash](screenshots/splash.png) | ![Registration](screenshots/register.png) | ![Login](screenshots/login.png) |
 
 | Dashboard | Detail | CourseApi |
-|-----------|--------|
+|-----------|--------|-------|
 | ![Dashboard](screenshots/home.png) | ![Detail](screenshots/detail.png) | ![CourseApi](screenshots/apicourses.png) |
 
 ---
